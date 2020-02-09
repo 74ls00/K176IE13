@@ -23543,9 +23543,7 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <wire x1="5.08" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94" curve="-180"/>
 <wire x1="7.62" y1="-2.54" x2="10.16" y2="-2.54" width="0.254" layer="94" curve="-180"/>
 <wire x1="-12.7" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="-15.24" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94" curve="-180"/>
 <wire x1="10.16" y1="-2.54" x2="12.7" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="12.7" y1="-2.54" x2="15.24" y2="-2.54" width="0.254" layer="94" curve="-180"/>
 <wire x1="-22.86" y1="0" x2="22.86" y2="0" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="2.54" x2="-20.32" y2="2.54" width="0.254" layer="94" curve="-180"/>
 <wire x1="-10.16" y1="2.54" x2="-12.7" y2="2.54" width="0.254" layer="94" curve="-180"/>
@@ -23553,17 +23551,17 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <wire x1="17.78" y1="-2.54" x2="20.32" y2="-2.54" width="0.254" layer="94" curve="-180"/>
 <wire x1="20.32" y1="-2.54" x2="22.86" y2="-2.54" width="0.254" layer="94" curve="-180"/>
 <circle x="-15.24" y="2.54" radius="0.2794" width="0.4572" layer="94"/>
-<circle x="-13.97" y="-2.54" radius="0.254" width="0.508" layer="94"/>
+<circle x="-11.43" y="-2.54" radius="0.254" width="0.508" layer="94"/>
 <circle x="1.27" y="-2.54" radius="0.254" width="0.508" layer="94"/>
 <circle x="-21.59" y="-2.54" radius="0.254" width="0.508" layer="94"/>
 <wire x1="-22.86" y1="-22.86" x2="22.86" y2="-22.86" width="0.1524" layer="94"/>
-<wire x1="-15.24" y1="-2.54" x2="-15.24" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-15.24" y1="-5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="-5.08" x2="-10.16" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="15.24" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="-5.08" x2="15.24" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="12.7" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="12.7" y2="-2.54" width="0.1524" layer="94"/>
 <circle x="19.05" y="-2.54" radius="0.254" width="0.508" layer="94"/>
 <wire x1="22.86" y1="-2.54" x2="22.86" y2="-22.86" width="0.1524" layer="94"/>
 <wire x1="-22.86" y1="-2.54" x2="-22.86" y2="-22.86" width="0.1524" layer="94"/>
@@ -23600,6 +23598,8 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <text x="-20.32" y="5.08" size="1.778" layer="94">I</text>
 <text x="2.54" y="5.08" size="1.778" layer="94">IV</text>
 <text x="10.16" y="5.08" size="1.778" layer="94">IV</text>
+<circle x="-21.59" y="3.81" radius="0.254" width="0.508" layer="94"/>
+<circle x="-12.7" y="3.81" radius="0.254" width="0.508" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -23899,7 +23899,7 @@ SOT23-6
 <part name="VT1" library="m_transistor" deviceset="BJT_NPN" device="_SOT23_BCE" value="BC847"/>
 <part name="VT3" library="m_transistor" deviceset="BJT_NPN" device="_SOT23_BCE" value="BC847"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="M0805" value="270"/>
-<part name="C5" library="rcl" deviceset="CPOL-EU" device="SANYO_SMD_A5" value="10m"/>
+<part name="C5" library="rcl" deviceset="CPOL-EU" device="SANYO_SMD_A5"/>
 <part name="JP1" library="Разъёмы штырьковые 2.54мм" deviceset="PINHD-1X7" device=""/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="M1206" value="0"/>
 <part name="U$13" library="MT3608" deviceset="MT3608" device="SOT23-6"/>

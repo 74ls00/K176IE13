@@ -2603,7 +2603,7 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <element name="VT1" library="m_transistor" package="SOT23" value="BC847" x="13.968721875" y="-6.3487" rot="MR90"/>
 <element name="VT3" library="m_transistor" package="SOT23" value="BC847" x="13.968721875" y="-2.5387" rot="MR90"/>
 <element name="R7" library="rcl" package="M0805" value="270" x="13.9713" y="0.636278125" rot="MR180"/>
-<element name="C5" library="rcl" package="SANYO-OSCON_SMD_A5" value="10m" x="9.523721875" y="-1.2687" rot="MR270"/>
+<element name="C5" library="rcl" package="SANYO-OSCON_SMD_A5" value="" x="9.523721875" y="-1.2687" rot="MR270"/>
 <element name="JP1" library="Разъёмы штырьковые 2.54мм" package="1X07" value="" x="3.173721875" y="-10.7937" rot="R180"/>
 <element name="R8" library="rcl" package="M1206" value="0" x="12.063721875" y="3.8113" rot="MR270"/>
 <element name="U$13" library="MT3608" package="SOT23-6" value="MT3608SOT23-6" x="13.968721875" y="23.4963" rot="MR0"/>
