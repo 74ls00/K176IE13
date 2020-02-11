@@ -1553,6 +1553,34 @@ Based on the following sources:
 <rectangle x1="2.2606" y1="-1.0922" x2="2.794" y2="1.0922" layer="51"/>
 <rectangle x1="-1.35" y1="-1.9" x2="-0.8" y2="1.9" layer="51"/>
 </package>
+<package name="DO35-7">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+diameter 2 mm, horizontal, grid 7.62 mm</description>
+<wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
+<wire x1="-3.81" y1="0" x2="-2.921" y2="0" width="0.508" layer="51"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.286" y1="0.762" x2="2.286" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="0.762" x2="-2.286" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
+<pad name="C" x="-3.81" y="0" drill="0.8128" shape="long"/>
+<pad name="A" x="3.81" y="0" drill="0.8128" shape="long"/>
+<text x="-2.286" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-2.667" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.905" y1="-1.016" x2="-1.397" y2="1.016" layer="21"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
+<rectangle x1="-2.921" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
+</package>
 </packages>
 </library>
 <library name="transistor">
@@ -1807,20 +1835,6 @@ pinhead.lbr 6.4</description>
 <pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="1X01">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" shape="octagon"/>
-<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -2177,35 +2191,6 @@ Based on the following sources:
 </library>
 <library name="m_transistor">
 <packages>
-<package name="DPACK">
-<description>&lt;b&gt;DPAK&lt;/b&gt;&lt;p&gt;Style 1 (Motorola)</description>
-<wire x1="3.2766" y1="3.8354" x2="3.277" y2="-2.159" width="0.2032" layer="21"/>
-<wire x1="3.277" y1="-2.159" x2="-3.277" y2="-2.159" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="-2.159" x2="-3.2766" y2="3.8354" width="0.2032" layer="21"/>
-<wire x1="-3.277" y1="3.835" x2="3.2774" y2="3.8346" width="0.2032" layer="51"/>
-<wire x1="-2.5654" y1="3.937" x2="-2.5654" y2="4.6482" width="0.2032" layer="51"/>
-<wire x1="-2.5654" y1="4.6482" x2="-2.1082" y2="5.1054" width="0.2032" layer="51"/>
-<wire x1="-2.1082" y1="5.1054" x2="2.1082" y2="5.1054" width="0.2032" layer="51"/>
-<wire x1="2.1082" y1="5.1054" x2="2.5654" y2="4.6482" width="0.2032" layer="51"/>
-<wire x1="2.5654" y1="4.6482" x2="2.5654" y2="3.937" width="0.2032" layer="51"/>
-<wire x1="2.5654" y1="3.937" x2="-2.5654" y2="3.937" width="0.2032" layer="51"/>
-<smd name="D" x="0" y="2.5" dx="5.4" dy="6.2" layer="1"/>
-<smd name="G" x="-2.28" y="-4.8" dx="1" dy="1.6" layer="1"/>
-<smd name="S" x="2.28" y="-4.8" dx="1" dy="1.6" layer="1"/>
-<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.7178" y1="-5.1562" x2="-1.8542" y2="-2.2606" layer="51"/>
-<rectangle x1="1.8542" y1="-5.1562" x2="2.7178" y2="-2.2606" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.0226" x2="0.4318" y2="-2.2606" layer="21"/>
-<polygon width="0.1998" layer="51">
-<vertex x="-2.5654" y="3.937"/>
-<vertex x="-2.5654" y="4.6482"/>
-<vertex x="-2.1082" y="5.1054"/>
-<vertex x="2.1082" y="5.1054"/>
-<vertex x="2.5654" y="4.6482"/>
-<vertex x="2.5654" y="3.937"/>
-</polygon>
-</package>
 <package name="SOT23">
 <description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
@@ -2615,7 +2600,7 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <element name="C205" library="rcl" package="E2,5-5" value="100m" x="78.103721875" y="16.5113"/>
 <element name="C201" library="rcl" package="E3,5-8" value="470m" x="102.233721875" y="22.8613"/>
 <element name="JP8" library="Разъёмы штырьковые 2.54мм" package="1X04" value="" x="-10.158721875" y="-49.5313" rot="R270"/>
-<element name="JP9" library="Разъёмы штырьковые 2.54мм" package="1X07" value="" x="3.173721875" y="-53.3387"/>
+<element name="X2A" library="Разъёмы штырьковые 2.54мм" package="1X07" value="" x="3.173721875" y="-53.3387"/>
 <element name="DD40" library="40xx" package="SO14" value="4011D" x="55.878721875" y="-11.4287" rot="MR180"/>
 <element name="DD50" library="40xx" package="DIL14" value="К176ЛЕ5" x="48.2613" y="-23.493721875"/>
 <element name="D6" library="diode" package="SOD80C" value="" x="71.7537" y="-29.846278125" rot="MR270"/>
@@ -2642,14 +2627,12 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <element name="V5" library="vfd" package="IV-6_VIXC" value="ИВ-6" x="25.398721875" y="-6.3487"/>
 <element name="S1" library="switch" package="SKHMPXE010" value="Ч" x="-25.398721875" y="-18.4163" rot="MR180"/>
 <element name="S2" library="switch" package="SKHMPXE010" value="М" x="-12.698721875" y="-18.4163" rot="MR180"/>
-<element name="VT2" library="m_transistor" package="DPACK" value="" x="-18.416278125" y="31.7513" rot="MR90"/>
-<element name="R19" library="rcl" package="M0805" value="100k" x="-26.671278125" y="31.1163" rot="MR90"/>
 <element name="R6" library="rcl" package="M0805" value="1k" x="15.5588" y="1.906278125" rot="MR0"/>
 <element name="VT1" library="m_transistor" package="SOT23" value="BC847" x="13.968721875" y="-7.6187" rot="MR90"/>
 <element name="VT3" library="m_transistor" package="SOT23" value="BC847" x="13.968721875" y="-3.4912" rot="MR90"/>
 <element name="R7" library="rcl" package="M0805" value="270" x="14.2888" y="-0.316221875" rot="MR180"/>
 <element name="C5" library="rcl" package="SANYO-OSCON_SMD_A5" value="" x="10.158721875" y="-0.3162" rot="MR270"/>
-<element name="JP1" library="Разъёмы штырьковые 2.54мм" package="1X07" value="" x="3.173721875" y="-10.7937" rot="R180"/>
+<element name="X2B" library="Разъёмы штырьковые 2.54мм" package="1X07" value="" x="3.173721875" y="-10.7937" rot="R180"/>
 <element name="R8" library="rcl" package="M1206" value="0" x="8.8887" y="-5.398778125" rot="MR180"/>
 <element name="U$13" library="MT3608" package="SOT23-6" value="MT3608SOT23-6" x="13.968721875" y="23.4963" rot="MR0"/>
 <element name="L1" library="rcl" package="L3225M" value="" x="17.778721875" y="23.4963" rot="MR270"/>
@@ -2659,7 +2642,7 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <element name="R18" library="rcl" package="M0805" value="68k" x="4.446278125" y="26.0337" rot="MR270"/>
 <element name="R20" library="rcl" package="M0805" value="2k2" x="8.888721875" y="25.4013" rot="MR90"/>
 <element name="C14" library="rcl" package="C1206" value="" x="6.3487" y="22.858721875" rot="MR180"/>
-<element name="U$9" library="TP4056+mod" package="MOD_03962A" value="MOD_TP4056" x="-62.866278125" y="3.8113" rot="MR270"/>
+<element name="U$9" library="TP4056+mod" package="MOD_03962A" value="MOD_TP4056" x="-56.516278125" y="4.1288" rot="MR270"/>
 <element name="R21" library="rcl" package="M0805" value="" x="3.808721875" y="20.9563" rot="MR0"/>
 <element name="S3" library="switch" package="SKHMPXE010" value="УЧ" x="12.698721875" y="-18.4137" rot="MR0"/>
 <element name="S4.1" library="switch" package="SKHMPXE010" value="УБ" x="-0.001278125" y="-18.4137" rot="MR0"/>
@@ -2674,10 +2657,10 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <element name="R22" library="rcl" package="M0805" value="" x="2.54" y="18.415" rot="MR270"/>
 <element name="R23" library="rcl" package="M0805" value="" x="0" y="18.415" rot="MR270"/>
 <element name="JP2" library="Разъёмы штырьковые 2.54мм" package="1X04" value="" x="-10.16" y="-6.985" rot="R270"/>
-<element name="U$2" library="DSS" package="DIL16_1" value="ULN2003C" x="-56.8325" y="-22.225" rot="R270"/>
-<element name="VT4" library="m_transistor" package="SOT23" value="" x="-7.9375" y="0.635" rot="MR90"/>
-<element name="JP3" library="Разъёмы штырьковые 2.54мм" package="1X01" value="" x="43.18" y="17.78"/>
-<element name="JP4" library="Разъёмы штырьковые 2.54мм" package="1X01" value="" x="41.275" y="21.59"/>
+<element name="U$2" library="DSS" package="DIL16_1" value="ULN2003C" x="-52.07" y="-23.8125" rot="R270"/>
+<element name="VT4" library="m_transistor" package="SOT23" value="" x="-6.0325" y="0.3175" rot="MR90"/>
+<element name="D10" library="diode" package="DO35-7" value="1N4148DO35-7" x="-60.0075" y="-41.275"/>
+<element name="D11" library="diode" package="DO35-7" value="1N4148DO35-7" x="-61.2775" y="-45.72"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2718,8 +2701,6 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <wire x1="-6.351278125" y1="-49.2112" x2="-6.351278125" y2="-43.1787" width="1.016" layer="16"/>
 <contactref element="DD6" pad="8"/>
 <contactref element="DD4" pad="8"/>
-<contactref element="VT2" pad="S"/>
-<contactref element="R19" pad="2"/>
 <contactref element="U$13" pad="2"/>
 <contactref element="C6" pad="2"/>
 <contactref element="R20" pad="1"/>
@@ -2765,10 +2746,8 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <wire x1="8.888721875" y1="24.4513" x2="7.7487" y2="22.858721875" width="0" layer="19" extent="16-16"/>
 <wire x1="13.968721875" y1="22.4963" x2="8.888721875" y2="24.4513" width="0" layer="19" extent="16-16"/>
 <wire x1="14.736278125" y1="26.0337" x2="13.968721875" y2="22.4963" width="0" layer="19" extent="16-16"/>
-<wire x1="-23.216278125" y1="34.0313" x2="7.7487" y2="22.858721875" width="0" layer="19" extent="16-16"/>
-<wire x1="-26.671278125" y1="32.0663" x2="-23.216278125" y2="34.0313" width="0" layer="19" extent="16-16"/>
-<wire x1="-60.6425" y1="-31.115" x2="-23.216278125" y2="34.0313" width="0" layer="19" extent="16-16"/>
-<wire x1="-44.746278125" y1="9.3113" x2="-26.671278125" y2="32.0663" width="0" layer="19" extent="16-16"/>
+<wire x1="-55.88" y1="-32.7025" x2="-29.211278125" y2="-39.0537" width="0" layer="19" extent="16-16"/>
+<wire x1="-38.396278125" y1="9.6288" x2="-14.072878125" y2="-11.4287" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VCC">
 <contactref element="DD1" pad="16"/>
@@ -3222,66 +3201,48 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <contactref element="R201" pad="1"/>
 <contactref element="C202" pad="1"/>
 <contactref element="C201" pad="+"/>
-<contactref element="R6" pad="1"/>
-<wire x1="17.461221875" y1="0.9288" x2="16.5088" y2="1.906278125" width="0.4064" layer="16"/>
-<contactref element="T1" pad="5"/>
-<wire x1="17.461221875" y1="0.9288" x2="18.825" y2="0.725" width="0.4064" layer="16"/>
-<contactref element="VT4" pad="3"/>
-<wire x1="18.825" y1="0.725" x2="20.41" y2="0.725" width="0.4064" layer="16"/>
-<wire x1="20.41" y1="0.725" x2="20.955" y2="1.27" width="0.4064" layer="16"/>
-<wire x1="20.955" y1="1.27" x2="20.955" y2="4.445" width="0.4064" layer="16"/>
-<wire x1="20.955" y1="4.445" x2="20.32" y2="5.08" width="0.4064" layer="16"/>
-<wire x1="6.985" y1="2.8575" x2="6.985" y2="-1.5875" width="0.4064" layer="16"/>
-<wire x1="6.985" y1="-1.5875" x2="6.0325" y2="-2.54" width="0.4064" layer="16"/>
-<wire x1="6.0325" y1="-2.54" x2="-3.4925" y2="-2.54" width="0.4064" layer="16"/>
-<wire x1="6.985" y1="2.8575" x2="8.89" y2="4.7625" width="0.4064" layer="16"/>
-<wire x1="8.89" y1="4.7625" x2="17.145" y2="4.7625" width="0.4064" layer="16"/>
-<wire x1="17.145" y1="4.7625" x2="17.4625" y2="5.08" width="0.4064" layer="16"/>
-<wire x1="17.4625" y1="5.08" x2="20.32" y2="5.08" width="0.4064" layer="16"/>
 <wire x1="101.728721875" y1="19.0513" x2="100.455721875" y2="22.8613" width="0" layer="19" extent="16-16"/>
 <wire x1="93.978721875" y1="17.8413" x2="101.728721875" y2="19.0513" width="0" layer="19" extent="16-16"/>
 <wire x1="88.2637" y1="16.188721875" x2="93.978721875" y2="17.8413" width="0" layer="19" extent="16-16"/>
-<wire x1="20.955" y1="4.445" x2="88.2637" y2="16.188721875" width="0" layer="19" extent="16-16"/>
-<wire x1="-6.8375" y1="0.635" x2="-3.4925" y2="-2.54" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$18">
 <contactref element="DD3" pad="9"/>
-<contactref element="JP9" pad="1"/>
+<contactref element="X2A" pad="1"/>
 <wire x1="-4.446278125" y1="-50.7987" x2="-4.446278125" y2="-53.3387" width="1.016" layer="16"/>
 </signal>
 <signal name="N$19">
 <contactref element="DD3" pad="10"/>
-<contactref element="JP9" pad="2"/>
+<contactref element="X2A" pad="2"/>
 <wire x1="-1.906278125" y1="-50.7987" x2="-1.906278125" y2="-53.3387" width="1.016" layer="16"/>
 </signal>
 <signal name="N$20">
 <contactref element="DD3" pad="11"/>
-<contactref element="JP9" pad="3"/>
+<contactref element="X2A" pad="3"/>
 <wire x1="0.633721875" y1="-50.7987" x2="0.633721875" y2="-53.3387" width="1.016" layer="16"/>
 </signal>
 <signal name="N$21">
 <contactref element="DD3" pad="12"/>
-<contactref element="JP9" pad="4"/>
+<contactref element="X2A" pad="4"/>
 <wire x1="3.173721875" y1="-50.7987" x2="3.173721875" y2="-53.3387" width="1.016" layer="16"/>
 </signal>
 <signal name="N$22">
 <contactref element="DD3" pad="13"/>
-<contactref element="JP9" pad="5"/>
+<contactref element="X2A" pad="5"/>
 <wire x1="5.713721875" y1="-50.7987" x2="5.713721875" y2="-53.3387" width="1.016" layer="16"/>
 </signal>
 <signal name="N$23">
 <contactref element="DD3" pad="14"/>
-<contactref element="JP9" pad="6"/>
+<contactref element="X2A" pad="6"/>
 <wire x1="8.253721875" y1="-50.7987" x2="8.253721875" y2="-53.3387" width="1.016" layer="16"/>
 </signal>
 <signal name="N$24">
 <contactref element="DD3" pad="15"/>
-<contactref element="JP9" pad="7"/>
+<contactref element="X2A" pad="7"/>
 <wire x1="10.793721875" y1="-50.7987" x2="10.793721875" y2="-53.3387" width="1.016" layer="16"/>
 </signal>
 <signal name="N$31">
 <contactref element="DD4" pad="1"/>
-<contactref element="JP1" pad="1"/>
+<contactref element="X2B" pad="1"/>
 <wire x1="10.793721875" y1="-10.7937" x2="10.793721875" y2="-9.206221875" width="0.4064" layer="16"/>
 <wire x1="10.793721875" y1="-9.206221875" x2="9.8425" y2="-8.255" width="0.4064" layer="16"/>
 <wire x1="9.8425" y1="-8.255" x2="8.5725" y2="-8.255" width="0.4064" layer="16"/>
@@ -3291,27 +3252,27 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 </signal>
 <signal name="N$33">
 <contactref element="DD4" pad="3"/>
-<contactref element="JP1" pad="3"/>
+<contactref element="X2B" pad="3"/>
 <wire x1="5.713721875" y1="-10.7937" x2="5.713721875" y2="-10.158721875" width="0.4064" layer="16"/>
 <wire x1="5.713721875" y1="-10.158721875" x2="3.158721875" y2="-7.603721875" width="0.4064" layer="16"/>
 <wire x1="3.158721875" y1="-7.603721875" x2="3.158721875" y2="-6.3896" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$65">
 <contactref element="DD4" pad="5"/>
-<contactref element="JP1" pad="5"/>
+<contactref element="X2B" pad="5"/>
 <wire x1="0.633721875" y1="-10.7937" x2="0.618721875" y2="-10.7787" width="0.4064" layer="16"/>
 <wire x1="0.618721875" y1="-10.7787" x2="0.618721875" y2="-6.3896" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$67">
 <contactref element="DD4" pad="6"/>
-<contactref element="JP1" pad="6"/>
+<contactref element="X2B" pad="6"/>
 <wire x1="-1.906278125" y1="-10.7937" x2="-1.906278125" y2="-9.526278125" width="0.4064" layer="16"/>
 <wire x1="-1.906278125" y1="-9.526278125" x2="-0.651278125" y2="-8.271278125" width="0.4064" layer="16"/>
 <wire x1="-0.651278125" y1="-8.271278125" x2="-0.651278125" y2="-6.3896" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$68">
 <contactref element="DD4" pad="7"/>
-<contactref element="JP1" pad="7"/>
+<contactref element="X2B" pad="7"/>
 <wire x1="-4.446278125" y1="-10.7937" x2="-4.446278125" y2="-9.208778125" width="0.4064" layer="16"/>
 <wire x1="-4.446278125" y1="-9.208778125" x2="-3.4925" y2="-8.255" width="0.4064" layer="16"/>
 <wire x1="-3.4925" y1="-8.255" x2="-2.2225" y2="-8.255" width="0.4064" layer="16"/>
@@ -3320,7 +3281,7 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 </signal>
 <signal name="N$32">
 <contactref element="DD4" pad="2"/>
-<contactref element="JP1" pad="2"/>
+<contactref element="X2B" pad="2"/>
 <wire x1="8.253721875" y1="-10.7937" x2="8.253721875" y2="-9.841221875" width="0.4064" layer="16"/>
 <wire x1="8.253721875" y1="-9.841221875" x2="6.6675" y2="-8.255" width="0.4064" layer="16"/>
 <wire x1="6.6675" y1="-8.255" x2="5.08" y2="-8.255" width="0.4064" layer="16"/>
@@ -3561,11 +3522,6 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <wire x1="79.058721875" y1="22.2263" x2="76.833721875" y2="16.5113" width="0" layer="19" extent="16-16"/>
 <wire x1="4.758721875" y1="20.9563" x2="76.833721875" y2="16.5113" width="0" layer="19" extent="16-16"/>
 </signal>
-<signal name="N$69">
-<contactref element="VT2" pad="G"/>
-<contactref element="R19" pad="1"/>
-<wire x1="-26.671278125" y1="30.1663" x2="-23.216278125" y2="29.4713" width="0" layer="19" extent="16-16"/>
-</signal>
 <signal name="N$116">
 <contactref element="VT1" pad="3"/>
 <contactref element="T1" pad="1"/>
@@ -3615,7 +3571,7 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 </signal>
 <signal name="N$26">
 <contactref element="DD4" pad="4"/>
-<contactref element="JP1" pad="4"/>
+<contactref element="X2B" pad="4"/>
 <wire x1="3.173721875" y1="-10.7937" x2="3.173721875" y2="-9.206221875" width="0.4064" layer="16"/>
 <wire x1="3.173721875" y1="-9.206221875" x2="1.888721875" y2="-7.921221875" width="0.4064" layer="16"/>
 <wire x1="1.888721875" y1="-7.921221875" x2="1.888721875" y2="-6.3896" width="0.4064" layer="16"/>
@@ -3649,8 +3605,8 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <contactref element="C6" pad="1"/>
 <contactref element="U$9" pad="P2+OUT"/>
 <contactref element="VT4" pad="2"/>
-<wire x1="-9.0375" y1="1.585" x2="-44.746278125" y2="-1.6887" width="0" layer="19" extent="16-16"/>
-<wire x1="11.468721875" y1="21.4963" x2="-9.0375" y2="1.585" width="0" layer="19" extent="16-16"/>
+<wire x1="-7.1325" y1="1.2675" x2="-38.396278125" y2="-1.3712" width="0" layer="19" extent="16-16"/>
+<wire x1="11.468721875" y1="21.4963" x2="-7.1325" y2="1.2675" width="0" layer="19" extent="16-16"/>
 <wire x1="11.468721875" y1="22.4963" x2="11.468721875" y2="21.4963" width="0" layer="19" extent="16-16"/>
 <wire x1="11.936278125" y1="26.0337" x2="11.468721875" y2="22.4963" width="0" layer="19" extent="16-16"/>
 <wire x1="17.778721875" y1="22.0963" x2="11.468721875" y2="22.4963" width="0" layer="19" extent="16-16"/>
@@ -3693,12 +3649,12 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <signal name="N$46">
 <contactref element="U$9" pad="P2+B"/>
 <contactref element="XBAT" pad="1"/>
-<wire x1="-6.35" y1="22.225" x2="-44.746278125" y2="1.3113" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.35" y1="22.225" x2="-38.396278125" y2="1.6288" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$47">
 <contactref element="XBAT" pad="2"/>
 <contactref element="U$9" pad="P2-B"/>
-<wire x1="-6.35" y1="24.765" x2="-44.746278125" y2="6.3113" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.35" y1="24.765" x2="-38.396278125" y2="6.6288" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$72">
 <contactref element="DD6" pad="4"/>
@@ -3736,8 +3692,37 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 <wire x1="10.686221875" y1="-1.5887" x2="10.158721875" y2="-2.1162" width="0.6096" layer="16"/>
 <wire x1="12.868721875" y1="-6.6687" x2="10.2887" y2="-5.398778125" width="1.016" layer="16"/>
 </signal>
-<signal name="N$28">
+<signal name="HVCC">
+<contactref element="R6" pad="1"/>
+<contactref element="T1" pad="5"/>
+<contactref element="VT4" pad="3"/>
+<wire x1="17.461221875" y1="0.9288" x2="16.5088" y2="1.906278125" width="0.4064" layer="16"/>
+<wire x1="17.461221875" y1="0.9288" x2="18.825" y2="0.725" width="0.4064" layer="16"/>
+<wire x1="18.825" y1="0.725" x2="20.41" y2="0.725" width="0.4064" layer="16"/>
+<wire x1="20.41" y1="0.725" x2="20.955" y2="1.27" width="0.4064" layer="16"/>
+<wire x1="20.955" y1="1.27" x2="20.955" y2="4.445" width="0.4064" layer="16"/>
+<wire x1="20.955" y1="4.445" x2="20.32" y2="5.08" width="0.4064" layer="16"/>
+<wire x1="6.985" y1="2.8575" x2="6.985" y2="-1.5875" width="0.4064" layer="16"/>
+<wire x1="6.985" y1="-1.5875" x2="6.0325" y2="-2.54" width="0.4064" layer="16"/>
+<wire x1="6.0325" y1="-2.54" x2="-3.4925" y2="-2.54" width="0.4064" layer="16"/>
+<wire x1="6.985" y1="2.8575" x2="8.89" y2="4.7625" width="0.4064" layer="16"/>
+<wire x1="8.89" y1="4.7625" x2="17.145" y2="4.7625" width="0.4064" layer="16"/>
+<wire x1="17.145" y1="4.7625" x2="17.4625" y2="5.08" width="0.4064" layer="16"/>
+<wire x1="17.4625" y1="5.08" x2="20.32" y2="5.08" width="0.4064" layer="16"/>
 <contactref element="DD4" pad="9"/>
+<wire x1="-3.191278125" y1="-0.2428" x2="-4.9325" y2="0.3175" width="0" layer="19" extent="16-16"/>
+<wire x1="-3.4925" y1="-2.54" x2="-3.191278125" y2="-0.2428" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$28">
+<contactref element="D11" pad="A"/>
+</signal>
+<signal name="N$69">
+<contactref element="D10" pad="A"/>
+</signal>
+<signal name="N$70">
+<contactref element="D11" pad="C"/>
+<contactref element="D10" pad="C"/>
+<wire x1="-63.8175" y1="-41.275" x2="-65.0875" y2="-45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
