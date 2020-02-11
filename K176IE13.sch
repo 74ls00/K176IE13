@@ -24206,7 +24206,7 @@ SOT23-6
 <part name="R7" library="rcl" deviceset="R-EU_" device="M0805" value="270"/>
 <part name="C5" library="rcl" deviceset="CPOL-EU" device="SANYO_SMD_A5"/>
 <part name="X2B" library="Разъёмы штырьковые 2.54мм" deviceset="PINHD-1X7" device=""/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="M1206" value="0"/>
+<part name="J2" library="rcl" deviceset="R-EU_" device="M1206" value="0"/>
 <part name="U$13" library="MT3608" deviceset="MT3608" device="SOT23-6"/>
 <part name="L1" library="rcl" deviceset="L-US" device="L3225M"/>
 <part name="C6" library="rcl" deviceset="C-EU" device="C1206"/>
@@ -25416,7 +25416,7 @@ IV
 <instance part="T1" gate="G$1" x="121.92" y="66.04"/>
 <instance part="VT4" gate="G$1" x="104.14" y="27.94"/>
 <instance part="GND16" gate="1" x="121.92" y="10.16"/>
-<instance part="R8" gate="G$1" x="121.92" y="20.32" smashed="yes" rot="R90">
+<instance part="J2" gate="G$1" x="121.92" y="20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="118.11" y="23.9014" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="118.11" y="21.082" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -25737,7 +25737,7 @@ IV
 <net name="GND" class="0">
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="15.24" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -25870,7 +25870,7 @@ IV
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="C5" gate="G$1" pin="+"/>
 <wire x1="121.92" y1="27.94" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$31" class="0">
