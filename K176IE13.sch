@@ -24296,6 +24296,7 @@ SOT23-6
 <part name="U$68" library="ie13" deviceset="PAD" device=""/>
 <part name="U$69" library="ie13" deviceset="PAD" device=""/>
 <part name="U$70" library="ie13" deviceset="PAD" device=""/>
+<part name="U$58" library="ie13" deviceset="PAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25510,13 +25511,14 @@ IV
 <instance part="U$68" gate="G$1" x="121.92" y="132.08"/>
 <instance part="U$69" gate="G$1" x="121.92" y="129.54"/>
 <instance part="U$70" gate="G$1" x="121.92" y="127"/>
+<instance part="U$58" gate="G$1" x="228.6" y="83.82"/>
 </instances>
 <busses>
 <bus name="A[1..5],B[1..5],C[1..5],D[1..5],E[1..5],F[1..5],G[1..5],S[1..4],SD,H[1..5],HE[1..5],HK[1..5],HE3,HK3">
 <segment>
 <wire x1="58.42" y1="147.32" x2="58.42" y2="180.34" width="0.762" layer="92"/>
 <wire x1="165.1" y1="144.78" x2="165.1" y2="180.34" width="0.762" layer="92"/>
-<wire x1="218.44" y1="96.52" x2="218.44" y2="180.34" width="0.762" layer="92"/>
+<wire x1="218.44" y1="83.82" x2="218.44" y2="180.34" width="0.762" layer="92"/>
 <wire x1="271.78" y1="111.76" x2="271.78" y2="180.34" width="0.762" layer="92"/>
 <wire x1="5.08" y1="180.34" x2="58.42" y2="180.34" width="0.762" layer="92"/>
 <wire x1="58.42" y1="180.34" x2="111.76" y2="180.34" width="0.762" layer="92"/>
@@ -25989,6 +25991,13 @@ IV
 <pinref part="DD4" gate="A" pin="CD+"/>
 <wire x1="210.82" y1="116.84" x2="218.44" y2="116.84" width="0.1524" layer="91"/>
 <label x="210.82" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DD6" gate="A" pin="CD+"/>
+<label x="210.82" y="83.82" size="1.778" layer="95"/>
+<pinref part="U$58" gate="G$1" pin="P$1"/>
+<wire x1="226.06" y1="83.82" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
+<label x="220.98" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$28" class="0">
