@@ -23535,9 +23535,22 @@ Source: http://www3.alps.co.jp/WebObjects/catalog.woa/PDF/E/Switch/Tact/SKHM/SKH
 </package>
 <package name="PAD-R">
 <circle x="0" y="0" radius="1.1" width="0.0508" layer="21"/>
-<circle x="0" y="0" radius="0.5" width="1.2" layer="16"/>
-<smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="16" thermals="no" cream="no"/>
 <circle x="0" y="0" radius="0.5" width="1.3" layer="29"/>
+<polygon width="0.127" layer="16">
+<vertex x="-0.254" y="1.016"/>
+<vertex x="0.254" y="1.016"/>
+<vertex x="0.762" y="0.762"/>
+<vertex x="1.016" y="0.254"/>
+<vertex x="1.016" y="-0.254"/>
+<vertex x="0.762" y="-0.762"/>
+<vertex x="0.254" y="-1.016"/>
+<vertex x="-0.254" y="-1.016"/>
+<vertex x="-0.762" y="-0.762"/>
+<vertex x="-1.016" y="-0.254"/>
+<vertex x="-1.016" y="0.254"/>
+<vertex x="-0.762" y="0.762"/>
+</polygon>
+<smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="16"/>
 </package>
 </packages>
 <symbols>
